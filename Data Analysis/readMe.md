@@ -6,8 +6,9 @@
   </tr>
   <tr>
     <td>Major</td>
-    <td>	Titanic Survival Prediction	Classic ML + EDA combo</td>
+    <td>	Titanic Survival Prediction	Classic ML + EDA combo
     <br>Credit Card Default Prediction	Full pipeline + model tuning
+    </td>
     </tr>
     <tr>
     <td>Minor </td>
