@@ -49,8 +49,7 @@
   <td>License Info</td>
   <td>This project is licensed under the <strong>MIT License</strong>. See the LICENSE file for more details.</td>
 </tr>
-
-
+</table>
 ---
 
 ## 🚀 Project Objective
