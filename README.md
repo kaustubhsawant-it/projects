@@ -3,7 +3,6 @@
 <table>
   <tr>
     <th>🧾 Section</th>
-    <th>What to Write</th>
   </tr>
   <tr>
     <td>Project Title</td>
