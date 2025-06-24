@@ -1,4 +1,4 @@
-#🧩 1. Data Analysis
+# 🧩 Data Analysis
 <table>
   <tr>
     <th>Type</th>
