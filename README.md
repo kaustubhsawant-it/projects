@@ -2,9 +2,6 @@
 ---
 
 ### ✅ `🧩 Data Analysis`
-
-
-<h2>🧩 Data Analysis</h2>
 <table>
   <tr>
     <th>Type</th>
@@ -35,8 +32,6 @@
 ---
 
 ### ✅ `🤖 Machine Learning`
-
-<h2>🤖 Machine Learning</h2>
 <table>
   <tr>
     <th>Type</th>
@@ -67,8 +62,6 @@
 
 ### ✅ `🧠 Artificial Intelligence`
 
-
-<h2>🧠 Artificial Intelligence</h2>
 <table>
   <tr>
     <th>Type</th>
@@ -99,8 +92,6 @@
 
 ### ✅ `🐍 Python Core + Advanced`
 
-
-<h2>🐍 Python Core + Advanced</h2>
 <table>
   <tr>
     <th>Type</th>
@@ -127,7 +118,3 @@
   </tr>
 </table>
 ```
-
-
----
-
