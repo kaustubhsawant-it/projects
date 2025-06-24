@@ -1,0 +1,26 @@
+name: 📁 Auto Folder Structure Generator
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate-folder-structure:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Generate folder structure
+      run: |
+        tree -L 2 -I 'venv|__pycache__|.git' > folder_structure.txt
+
+    - name: Commit updated structure
+      run: |
+        git config user.name "github-actions"
+        git config user.email "github-actions@github.com"
+        git add folder_structure.txt
+        git commit -m "🔁 Update folder structure [skip ci]" || echo "No changes"
+        git push
