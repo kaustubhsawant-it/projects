@@ -1,43 +1,134 @@
-# 📂 Projects
+# Main ReadMe File 
+---
 
+### ✅ `🧩 Data Analysis`
+
+```html
+<h2>🧩 Data Analysis</h2>
 <table>
   <tr>
-    <th>🧾 Section</th>
+    <th>Type</th>
+    <th>Project Title</th>
   </tr>
   <tr>
-    <td>Project Title</td>
-    <td>Actual name of the project (e.g., Loan Eligibility Checker)</td>
+    <td>Major</td>
+    <td>
+      <ol>
+        <li>Titanic Survival Prediction – Classic ML + EDA combo</li>
+        <li>Credit Card Default Prediction – Full pipeline + model tuning</li>
+      </ol>
+    </td>
   </tr>
   <tr>
-    <td>Subject</td>
-    <td>Data Analysis / Machine Learning / AI / Python</td>
-  </tr>
-  <tr>
-    <td>Project Objective</td>
-    <td>2–3 lines on what the project does</td>
-  </tr>
-  <tr>
-    <td>Dataset</td>
-    <td>Where it's from + download link</td>
-  </tr>
-  <tr>
-    <td>Skills/Tools</td>
-    <td>Python, Pandas, Sklearn, Matplotlib, etc.</td>
-  </tr>
-  <tr>
-    <td>Installation Instructions</td>
-    <td>Same for all projects (copy-paste from template)</td>
-  </tr>
-  <tr>
-    <td>Sample Output</td>
-    <td>Optional — add later once you make visualizations</td>
-  </tr>
-  <tr>
-    <td>Author Info</td>
-    <td>Your name, GitHub, LinkedIn</td>
-  </tr>
-  <tr>
-    <td>License Info</td>
-    <td>Mention MIT License (connects with LICENSE file)</td>
+    <td>Minor</td>
+    <td>
+      <ol>
+        <li>Loan Eligibility Checker – EDA + basic logic, quick to build</li>
+        <li>Netflix Data Insights – Focused on EDA/storytelling</li>
+        <li>Sales Dashboard (Tableau + pandas) – Cross-tool project</li>
+      </ol>
+    </td>
   </tr>
 </table>
+```
+
+---
+
+### ✅ `🤖 Machine Learning`
+
+```html
+<h2>🤖 Machine Learning</h2>
+<table>
+  <tr>
+    <th>Type</th>
+    <th>Project Title</th>
+  </tr>
+  <tr>
+    <td>Major</td>
+    <td>
+      <ol>
+        <li>Full ML Model Comparison – LogReg, KNN, SVM, RF, Neural Networks</li>
+        <li>Heart Disease Prediction – Real medical dataset, end-to-end ML</li>
+      </ol>
+    </td>
+  </tr>
+  <tr>
+    <td>Minor</td>
+    <td>
+      <ol>
+        <li>Spam Classifier (NLP) – Good demo for text pipelines</li>
+        <li>Customer Clustering – KMeans & PCA for unsupervised learning</li>
+      </ol>
+    </td>
+  </tr>
+</table>
+```
+
+---
+
+### ✅ `🧠 Artificial Intelligence`
+
+```html
+<h2>🧠 Artificial Intelligence</h2>
+<table>
+  <tr>
+    <th>Type</th>
+    <th>Project Title</th>
+  </tr>
+  <tr>
+    <td>Major</td>
+    <td>
+      <ol>
+        <li>Tic-Tac-Toe AI – Minimax algorithm for decision making</li>
+        <li>IBM Watson Fraud Detection – Industry-grade ML with Watson Studio</li>
+      </ol>
+    </td>
+  </tr>
+  <tr>
+    <td>Minor</td>
+    <td>
+      <ol>
+        <li>Rule-Based Chatbot – Logic without NLP</li>
+        <li>Sudoku Solver – Recursive backtracking and grid solving</li>
+      </ol>
+    </td>
+  </tr>
+</table>
+```
+
+---
+
+### ✅ `🐍 Python Core + Advanced`
+
+```html
+<h2>🐍 Python Core + Advanced</h2>
+<table>
+  <tr>
+    <th>Type</th>
+    <th>Project Title</th>
+  </tr>
+  <tr>
+    <td>Major</td>
+    <td>
+      <ol>
+        <li>Web Scraper – Use requests, BeautifulSoup, pandas</li>
+      </ol>
+    </td>
+  </tr>
+  <tr>
+    <td>Minor</td>
+    <td>
+      <ol>
+        <li>File Organizer – Uses os, shutil to manage files</li>
+        <li>PDF Merger/Watermarker – Real-world automation tool</li>
+        <li>Expense Tracker CLI – Simple command-line finance app</li>
+        <li>Threading vs Multiprocessing – Demo of parallelism</li>
+      </ol>
+    </td>
+  </tr>
+</table>
+```
+
+
+---
+
