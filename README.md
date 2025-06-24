@@ -27,7 +27,7 @@
     </td>
   </tr>
 </table>
-```
+
 
 ---
 
@@ -56,7 +56,7 @@
     </td>
   </tr>
 </table>
-```
+
 
 ---
 
@@ -86,8 +86,6 @@
     </td>
   </tr>
 </table>
-```
-
 ---
 
 ### ✅ `🐍 Python Core + Advanced`
@@ -117,4 +115,6 @@
     </td>
   </tr>
 </table>
-```
+---
+
+<pre> ``` <your tree output here> ``` </pre>
