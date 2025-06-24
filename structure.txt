@@ -1,0 +1,78 @@
+C:.
+|   README.md
+|   structure.txt
+|   
++---.github
+|   \---workflows
+|           folder-structure.yml
+|           
++---Artificial Intelligence
+|   |   readMe.md
+|   |   
+|   +---Major
+|   |   +---IBM Watson Fraud Detection
+|   |   \---TIc-Tac-Toe AI
+|   \---Minor
+|       +---Rule-Based ChatBot
+|       \---Sudoku Solver
++---Data Analysis
+|   |   readMe.md
+|   |   
+|   +---Major
+|   |   +---Credit Card Prediction
+|   |   |   |   license
+|   |   |   |   readMe.md
+|   |   |   |   requirements.txt
+|   |   |   |   
+|   |   |   +---data
+|   |   |   +---images
+|   |   |   +---notebooks
+|   |   |   \---scripts
+|   |   \---Titanic Survival Prediction
+|   |       |   license
+|   |       |   readMe.md
+|   |       |   requirements.txt
+|   |       |   
+|   |       +---data
+|   |       +---images
+|   |       +---notebooks
+|   |       \---scripts
+|   \---Minor
+|       +---Loan Eligibility Checker
+|       |   |   license
+|       |   |   readMe.md
+|       |   |   requirements.txt
+|       |   |   
+|       |   +---data
+|       |   +---images
+|       |   +---notebooks
+|       |   \---scripts
+|       +---Netflix Data Insights
+|       |   |   license
+|       |   |   readMe.md
+|       |   |   requirements.txt
+|       |   |   
+|       |   +---data
+|       |   +---images
+|       |   +---notebooks
+|       |   \---scripts
+|       \---Sales Dashboard
++---Machine Learning
+|   |   readMe.md
+|   |   
+|   +---Major
+|   |   +---Full ML Model Compare
+|   |   \---Heart Disease Prediction
+|   \---Minor
+|       +---Customer Clustering
+|       \---Spam Classifier
+\---Python
+    |   readMe.md
+    |   
+    +---Major
+    |   \---Web Scraper
+    \---Minor
+        +---Expense Tracker CLI
+        +---File Organizer
+        +---PDF Merger or watermarker
+        \---Threading VS Multiprocessing

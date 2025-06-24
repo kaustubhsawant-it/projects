@@ -117,4 +117,4 @@
 </table>
 ---
 
-<pre> ``` <your tree output here> ``` </pre>
+<code> tree /F /A > structure.txt </code>
