@@ -1,5 +1,5 @@
 # projects
-<table><title>🧾 Sections You Must Fill In:</title>
+<table><th>🧾 Sections You Must Fill In:</th>
 Section	What to Write
 Project Title	Actual name of the project (e.g., Loan Eligibility Checker)
 Subject	Data Analysis / Machine Learning / AI / Python
