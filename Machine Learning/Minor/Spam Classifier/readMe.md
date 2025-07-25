@@ -12,7 +12,7 @@
   </tr>
   <tr>
     <td>Project Objective</td>
-    <td>.</td>
+    <td>Understanding whether a given message is Ham or spam using NLP based Spam Classifier</td>
   </tr>
   <tr>
     <td>Dataset</td>
@@ -20,7 +20,7 @@
   </tr>
  <tr>
   <td>Skills/Tools</td>
-  <td>Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Jupyter Notebook</td>
+  <td>Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Jupyter Notebook, Regex, nltk, Stopwords</td>
 </tr>
 <tr>
   <td>Installation Instructions</td>
@@ -30,12 +30,12 @@
     3. Install dependencies: <code>pip install -r requirements.txt</code><br>
     Or open the Colab notebook directly:<br>
     <a href="https://github.com/kaustubhsawant-it/projects/blob/main/Machine%20Learning/Minor/Spam%20Classifier/sms%2Bspam%2Bcollection/spam_ham.ipynb">
-    📔 Open in Google Colab</a>
+    📔 Open in Google Colab or Download to run</a>
   </td>
 </tr>
 <tr>
   <td>Sample Output</td>
-  <td>Example output includes correlation heatmaps, loan approval prediction accuracy score, and confusion matrix. Visuals will be added after model training.</td>
+  <td>Example output includes Confusion Matrix heatmaps, Ham OR Spam prediction accuracy score, and classification report. Visuals will be added after model training.</td>
 </tr>
 <tr>
   <td>Author Info</td>
@@ -82,6 +82,6 @@
 Clone the repo and install the dependencies:
 
 ```bash
-git clone https://github.com/kaustubhsawant/<repo-name>.git
+git clone https://github.com/kaustubhsawant-it/<repo-name>.git
 cd <repo-name>
 pip install -r requirements.txt
