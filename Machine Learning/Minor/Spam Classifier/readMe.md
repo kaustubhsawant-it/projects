@@ -25,11 +25,11 @@
 <tr>
   <td>Installation Instructions</td>
   <td>
-    1. Clone the repo: <code>git clone https://github.com/kaustubhsawant/loan-eligibility-checker.git</code><br>
-    2. Navigate into the folder: <code>cd loan-eligibility-checker</code><br>
+    1. Clone the repo: <code>git clone https://github.com/kaustubhsawant-it/projects/tree/2f40add51bc7bb0f7813f7ca498778366cac820b/Machine%20Learning/</code><br>
+    2. Navigate into the folder: <code>cd "Spam Classifier/Minor/Spam Classifier/sms+spam+collection"</code><br> 
     3. Install dependencies: <code>pip install -r requirements.txt</code><br>
     Or open the Colab notebook directly:<br>
-    <a href="#">
+    <a href="https://github.com/kaustubhsawant-it/projects/blob/main/Machine%20Learning/Minor/Spam%20Classifier/sms%2Bspam%2Bcollection/spam_ham.ipynb">
     📔 Open in Google Colab</a>
   </td>
 </tr>
