@@ -55,7 +55,7 @@
 ## 🚀 Project Objective
 
 > Brief summary of the goal:
-> e.g., This project aims to analyze user data to predict loan eligibility using logistic regression, explore feature correlations, and visualize insights to support decision-making.
+> e.g., This project aims to analyze messages to predict a Spam message using Naive Bayes Theorem, explore feature building, and visualize insights and generate classification reports.
 
 ---
 
