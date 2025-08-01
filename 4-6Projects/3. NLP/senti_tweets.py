@@ -1,51 +1,28 @@
-import tweepy as tw
-import pandas as pd
+from textblob import TextBlob
 import streamlit as st
-import time
 
-st.write("Starting app...")
 
-# Twitter client
-client = tw.Client(bearer_token='AAAAAAAAAAAAAAAAAAAAAMdx3QEAAAAAxWPHmeHgerw4kTsFJAkbjPJ1m1g%3DSqiAGUQyhM3hFxa5O0ykhMPNDy4H2JeYMdFOV2qz8ArWGzhtXw')
+st.set_page_config(page_title="Sentiment Analyzer", layout="centered")
 
-@st.cache_data
-def get_tweets(query, limit=50):
-    st.write(f"Running get_tweets with query='{query}', limit={limit}")
-    tweets = []
+st.title("Sentiment Analyzer")
+st.write("Enter a sentence and let me analyze its sentiments!")
 
-    try:
-        response = client.search_recent_tweets(
-            query=query,
-            max_results=min(limit, 100),
-            tweet_fields=['created_at', 'author_id', 'text'],
-            expansions=['author_id'],
-            user_fields=['username']
-        )
+#User input
+user_input = st.text_area("Type Something Here!")
 
-        if response.data is None:
-            st.warning("No tweets found.")
-            return pd.DataFrame(columns=['Date', 'UserName', 'Tweet'])
+if user_input:
+    blob = TextBlob(user_input)
+    polarity = blob.sentiment.polarity
 
-        users = {u['id']: u for u in response.includes['users']}
+    if polarity > 0:
+        sentiment= "Positive"
+    elif polarity < 0:
+        sentiment = "Negative"
+    else:
+        sentiment = "Neutral"
 
-        for tweet in response.data:
-            user = users.get(tweet.author_id)
-            tweets.append([
-                tweet.created_at,
-                user.username if user else "Unknown",
-                tweet.text
-            ])
-
-        df = pd.DataFrame(tweets, columns=['Date', 'UserName', 'Tweet'])
-        st.success(f"Pulled {len(df)} tweets.")
-        return df
+    #Sentiment Results
+    st.subheader("Sentiment Results")
+    st.success(sentiment)
+    st.caption(f"Polarity Score: {polarity}")
     
-    except Exception as e:
-        st.error(f"Error: {e}")
-        return pd.DataFrame(columns=['Date', 'UserName', 'Tweet'])
-    
-# Show loading text
-st.write("Running get_tweets...")
-df = get_tweets("OpenAI", limit=20)
-st.write("Done fetching.")
-st.dataframe(df.head())
