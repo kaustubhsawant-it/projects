@@ -9,7 +9,7 @@ import plotly.express as px
 
 @st.cache_data
 def load_data():
-    df_inner = pd.read_csv("../datasets/city_hour.csv")
+    df_inner = pd.read_csv("/city_hour.csv")
     df_inner['Datetime'] = pd.to_datetime(df_inner['Datetime'])
     df_inner = df_inner.dropna(subset=['City'])
     return df_inner
