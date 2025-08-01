@@ -1,11 +1,3 @@
-'''
-import kagglehub
-
-# Download latest version
-path = kagglehub.dataset_download("rohanrao/air-quality-data-in-india")
-
-print("Path to dataset files:", path)
-'''
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
